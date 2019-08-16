@@ -20,4 +20,14 @@ public class Employee {
 	private EmployeeType employeeType;
 	private double bonus;
 	private double hourlyPay;
+	private double houseAllowance;
+	private double medicalAllowance;
+
+	public Employee(String name, String jobDescription, String department, EmployeeType employeeType) {
+		this.name = name;
+		this.jobDescription = jobDescription;
+		this.department = department;
+		this.employeeType = employeeType;
+	}
+	
 }

@@ -11,5 +11,8 @@ public class PermanentEmployeeManager implements IEmployeeManager {
 	public double getPay() {
 		return 20;
 	}
-
+	
+	public double getHouseAllowance() {
+		return 150;
+	}
 }

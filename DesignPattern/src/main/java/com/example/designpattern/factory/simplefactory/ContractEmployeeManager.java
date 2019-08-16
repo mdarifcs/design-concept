@@ -11,4 +11,8 @@ public class ContractEmployeeManager implements IEmployeeManager {
 	public double getPay() {
 		return 10;
 	}
+	
+	public double getMedicalAllowance() {
+		return 100;
+	}
 }

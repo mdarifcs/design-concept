@@ -22,6 +22,7 @@ public class Employee {
 	private double hourlyPay;
 	private double houseAllowance;
 	private double medicalAllowance;
+	private String computerDetails;
 
 	public Employee(String name, String jobDescription, String department, EmployeeType employeeType) {
 		this.name = name;

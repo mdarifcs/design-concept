@@ -1,6 +1,7 @@
-package com.example.designpattern.factory.abstractfactory;
+package com.example.designpattern.factory.abstractfactory.concreteproduct;
 
 import com.example.designpattern.factory.abstractfactory.Enumerations.Brands;
+import com.example.designpattern.factory.abstractfactory.abstractproduct.IBrand;
 
 public class DELL implements IBrand{
 
